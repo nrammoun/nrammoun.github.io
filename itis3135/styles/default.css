@@ -1,15 +1,15 @@
 body
 {
-    color:blueviolet
-    background-color:aqua
-    font-family: ubuntu
+    color:blueviolet;
+    background-color:aqua;
+    font-family: ubuntu;
 }
 
 header, footer
 {
     text-align: center;
-    color:brown
-    background-color:antiquewhite
+    color:brown;
+    background-color:aquamarine;
 }
 
 footer p

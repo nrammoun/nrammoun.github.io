@@ -1,0 +1,18 @@
+body
+{
+    color:blueviolet
+    background-color:aqua
+    font-family: ubuntu
+}
+
+header, footer
+{
+    text-align: center;
+    color:brown
+    background-color:antiquewhite
+}
+
+footer p
+{
+    font-size: 300%
+}

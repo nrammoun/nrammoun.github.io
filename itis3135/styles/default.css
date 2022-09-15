@@ -1,18 +1,26 @@
-body
-{
+
+html, body, head, header, footer {
+    background-color: #132113;
+    color: #343434;;
+}
+
+/* body {
     color:blueviolet;
     background-color:aqua;
     font-family: ubuntu;
 }
 
-header, footer
-{
+header {
     text-align: center;
     color:brown;
-    background-color:aquamarine;
+    background-color:blue;
 }
 
-footer p
-{
-    font-size: 300%
+footer p {
+    font-size: 100px;
 }
+
+p {
+    text-align: center;
+}
+*/

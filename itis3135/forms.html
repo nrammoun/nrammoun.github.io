@@ -32,7 +32,7 @@
     
 
     <main>
-        <h2>Home Page</h2>
+        <h2>Forms</h2>
         <h2>Welcome To Naseem's ITIS3135 Webpage!</h2>
         <h2>Thank you for visiting my site! All pages are consistently getting updated!</h2>
         <!-- surgeon pic 
@@ -41,18 +41,49 @@
             <img src = "images/siteoperatio.jpg"  alt = "Surgeon about to operate." class="center" />
         </a>
          -->
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-             magna aliqua. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Ultrices mi tempus imperdiet
-              nulla malesuada. Lectus arcu bibendum at varius vel pharetra. Habitasse platea dictumst quisque sagittis. 
-              Vitae nunc sed velit dignissim sodales ut. Egestas sed tempus urna et pharetra pharetra.
-               In iaculis nunc sed augue lacus viverra vitae. Malesuada nunc vel risus commodo. Viverra orci sagittis eu 
-               volutpat odio facilisis mauris sit amet. Sit amet consectetur adipiscing elit duis tristique sollicitudin.
-                Nec nam aliquam sem et tortor consequat id.</h3>
-        <h3>Duis quis finibus mauris. Sed at tempor orci, in consequat eros. Duis eu molestie neque. Cras quis interdum metus.
-             Praesent libero leo, posuere a pharetra id, lobortis et sem. Fusce lacinia ultrices bibendum. Aliquam in turpis turpis.
-              Sed sit amet libero et arcu viverra consequat in sed nibh. Aenean quis lectus auctor neque posuere congue. Nam iaculis 
-              vulputate ultrices. Cras consequat ante quis faucibus pulvinar. Nulla facilisi. Nunc fermentum ornare erat et elementum.
-               Donec volutpat ligula eu dui convallis, in pellentesque ex sodales.</h3>
+        <h3>Environmental Impact Form</h3><br>
+        <h3>
+            <form action="#">
+
+                <!--personal info-->
+                <p>Tell us about yourself!</p><br>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="state">State:</label><br>
+                <input type="text" id="state" name="state"><br>
+
+                <!--actual Qs-->
+                <p>How often do you think about the environment?</p>
+                <input type="radio" id="never" name="never" value="never">
+                <label for="never">Never</label><br>
+                <input type="radio" id="daily" name="daily" value="daily">
+                <label for="daily">Daily</label><br>
+                <input type="radio" id="sometimes" name="sometimes" value="sometimes">
+                <label for="sometimes">Sometimes</label><br>
+                <input type="radio" id="seebad" name="seebad" value="seebad">
+                <label for="seebad">Whenever I see sth Bad</label><br>
+
+                <!--how you throw your trash, trash can, proper trash can, floor-->
+                <p>How do you throw your trash?</p>
+                <input type="radio" id="trashcan" name="trash" value="trashcan">
+                <label for="trashcan">Trash Can</label><br>
+                <input type="radio" id="propertrash" name="propertrash" value="propertrash">
+                <label for="propertrash">Proper Trash Can</label><br>
+                <input type="radio" id="floor" name="floor" value="floor">
+                <label for="floor">Floor is my trash can</label><br>
+
+
+
+                <br><br>
+                <input type="submit" value="Submit">
+
+            </form>
+        </h3>
+
     </main>
 
     <footer>

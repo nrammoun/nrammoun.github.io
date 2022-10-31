@@ -5,7 +5,7 @@ html {
 body {
     
     color: #6B0504;
-    background-color: #D5E68D;
+    background-color: #EFF8E2;
     border: 0 !important;
     /* 
     font-family: 'Indie Flower', cursive;
@@ -19,8 +19,8 @@ body {
 header {
     font-family: Ubuntu, sans-serif;
     text-align: center;
-    color:brown;
-    background-color:#d5e3e3;
+    color:#573280;
+    background-color:#CECFC7;
 }
 
 
@@ -38,7 +38,13 @@ h1 {
 h2 {
     font-family: Ubuntu, sans-serif;
     text-align: center;
+    color: #23022E;
 
+}
+
+h3 {
+    font-family: Ubuntu, sans-serif;
+    color: #ADA8B6;
 }
 
 footer {
@@ -48,7 +54,7 @@ footer {
     position: absolute;
     bottom: -20;
     width: 100%;
-    height: 2.5rem;
+  /*  height: 2.5rem;  */
 }
 
 .center {
